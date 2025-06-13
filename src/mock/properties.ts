@@ -1,4 +1,6 @@
 import { Property } from "../types/property";
+import Capsule_House_1 from "../img/1_Futuristic Capsule House_simple_compose.png";
+import Capsule_House_2 from "../img/2_Futuristic Capsule House_simple_compose.png";
 
 export const properties: Property[] = [
     {
@@ -7,7 +9,7 @@ export const properties: Property[] = [
         price: 2150000,
         address: '123 Sunset Blvd',
         state: 'CA',
-        image: 'https://via.placeholder.com/400x240',
+        image: Capsule_House_1,
         area: 380,
         bedrooms: 4,
         bathrooms: 3,
@@ -18,7 +20,7 @@ export const properties: Property[] = [
         price: 3750000,
         address: '789 Ocean Drive',
         state: 'FL',
-        image: 'https://via.placeholder.com/400x240',
+        image: Capsule_House_2,
         area: 500,
         bedrooms: 5,
         bathrooms: 4,
