@@ -1,6 +1,7 @@
 import React from "react";
 import { Property } from "../../types/property";
-import './style.css';
+import "./style.css";
+import { Link } from "react-router-dom";
 
 interface Props {
     property: Property;
@@ -21,6 +22,9 @@ const PropertyCard: React.FC<Props> = ( {property} ) => {
                         <span>{property.bedrooms} 🛏</span>
                         <span>{property.bathrooms} 🛁</span>
                     </div>
+                    <Link to={`/property/${property.id}`} className="property-button">
+                        Подробнее →
+                    </Link>
                 </div>
             </div>
         </>
