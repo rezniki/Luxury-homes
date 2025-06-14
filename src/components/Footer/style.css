@@ -1,0 +1,27 @@
+.luxury-footer {
+    background-color: #f8f8f8;
+    padding: 20px 32px;
+    border-top: 1px solid #ddd;
+    margin-top: 64px;
+}
+
+.luxury-footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.luxury-footer-links a {
+    color: #444;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.luxury-footer-links a:hover {
+    text-decoration: underline;
+}
