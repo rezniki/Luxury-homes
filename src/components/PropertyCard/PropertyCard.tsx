@@ -14,14 +14,9 @@ const PropertyCard: React.FC<Props> = ( {property} ) => {
                 <img className="property-image" src={property.image} alt={property.title} />
 
                 <div className="property-info">
-                    <h2 className="property-title">{property.title}</h2>
+                    <h2 className="property-card-title">{property.title}</h2>
                     <p className="property-address">{property.address}, {property.state}</p>
                     <p className="property-price">${property.price.toLocaleString()}</p>
-                    <div className="property-details">
-                        <span>{property.area} m²</span>
-                        <span>{property.bedrooms} 🛏</span>
-                        <span>{property.bathrooms} 🛁</span>
-                    </div>
                     <Link to={`/property/${property.id}`} className="property-button">
                         Подробнее →
                     </Link>

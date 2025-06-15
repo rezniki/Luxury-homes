@@ -25,7 +25,7 @@
     padding: 15px;
 }
 
-.property-title {
+.property-card-title {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 4px;
@@ -42,14 +42,6 @@
     font-weight: bold;
     color: #1c1c1c;
     margin-bottom: 10px;
-}
-
-.property-details {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    color: #444;
-    margin-top: 10px;
 }
 
 .property-button {

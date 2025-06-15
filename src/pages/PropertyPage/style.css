@@ -1,0 +1,57 @@
+.property-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px;
+    text-align: left;
+}
+
+.property-back-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #0077ff;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.property-back-button:hover {
+    text-decoration: underline;
+}
+
+.property-image-full {
+    width: 100%;
+    max-height: 1200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.property-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.property-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c1c1c;
+    margin: 16px 0;
+}
+
+.property-address-state {
+    font-size: 15px;
+}
+
+.property-details {
+    list-style: none;
+    margin: 16px 0 ;
+}
+
+.property-details li {
+    margin-bottom: 6px;
+}
+
+.property-description {
+    color: #555;
+    line-height: 1.6;
+}
