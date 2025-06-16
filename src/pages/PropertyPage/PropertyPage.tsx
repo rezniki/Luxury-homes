@@ -56,7 +56,7 @@ const PropertyPage: React.FC = () => {
                     {property.description || 'The description of this house will be added later.'}
                 </p>
 
-                <button className="property-favorite-button">
+                <button onClick={handleFavorite} className="property-favorite-button">
                     {favorite ? 'Remove from favorites' : 'Add to favorites'}
                 </button>
             </div>
