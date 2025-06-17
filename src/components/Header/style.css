@@ -32,3 +32,29 @@
 .luxury-capsule-nav a:hover {
     color: #0077ff;
 }
+
+.luxury-auth-block {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.luxury-greeting {
+    font-size: 14px;
+    color: #333;
+}
+
+.luxury-auth-button {
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.luxury-auth-button:hover {
+    background-color: #005ec4;
+}
