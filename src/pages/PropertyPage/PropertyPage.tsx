@@ -34,8 +34,6 @@ const PropertyPage: React.FC = () => {
         return <div className="property-page">Дом не найден</div>;
     }
 
-    
-
     return (
         <>
             <div className="property-page">

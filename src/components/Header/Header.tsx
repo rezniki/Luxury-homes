@@ -17,6 +17,21 @@ const Header: React.FC = () => {
         localStorage.setItem('isLoggedIn', String(newStatus));
     }
 
+    const [theme, setTheme] = useState('light');
+
+    useEffect (() => {
+        const storedTheme = localStorage.getItem('theme') || 'light';
+        setTheme(storedTheme);
+        document.documentElement.setAttribute('data-theme', storedTheme);
+    }, []);
+
+    const toggleTheme = () => {
+        const newTheme = theme === 'light' ? 'dark' : 'light';
+        setTheme(newTheme);
+        localStorage.setItem('theme', newTheme);
+        document.documentElement.setAttribute('data-theme', newTheme);
+    };
+
     return (
         <>
             <header className="luxury-header">
@@ -34,6 +49,9 @@ const Header: React.FC = () => {
                         </span>
                         <button className="luxury-auth-button" onClick={handleAuthClick}>
                             {isLoggedIn ? 'Get out': 'Entry'}
+                        </button>
+                        <button className="luxury-theme-button" onClick={toggleTheme}>
+                            {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
                         </button>
                     </div>
                 </div>

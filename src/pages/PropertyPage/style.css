@@ -35,6 +35,7 @@
     font-size: 24px;
     font-weight: bold;
     color: #1c1c1c;
+    color: var(--text-color);
     margin: 16px 0;
 }
 
@@ -53,6 +54,7 @@
 
 .property-description {
     color: #555;
+    color: var(--text-color);
     line-height: 1.6;
     margin-bottom: 20px;
 }

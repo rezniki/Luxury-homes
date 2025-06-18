@@ -1,5 +1,6 @@
 .luxury-footer {
     background-color: #f8f8f8;
+    background-color: var(--bg-color);
     padding: 20px 32px;
     border-top: 1px solid #ddd;
     margin-top: 64px;
@@ -10,6 +11,7 @@
     margin: 0 auto;
     font-size: 14px;
     color: #444;
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,6 +20,7 @@
 
 .luxury-footer-links a {
     color: #444;
+    color: var(--text-color);
     text-decoration: none;
     margin: 0 12px;
 }

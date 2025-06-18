@@ -1,5 +1,6 @@
 .luxury-header {
     background-color: #ffffff;
+    background-color: var(--bg-color);
     padding: 16px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     position: sticky;
@@ -19,10 +20,11 @@
     font-size: 24px;
     font-weight: 600;
     color: #1c1c1c;
+    color: var(--text-color);
 }
 
 .luxury-capsule-nav {
-    width: 23%;
+    width: 15%;
 }
 
 .luxury-capsule-nav a {
@@ -30,6 +32,7 @@
     text-decoration: none;
     font-weight: 500;
     color: #333;
+    color: var(--text-color);
     transition: color 0.2s ease;
 }
 
@@ -46,6 +49,7 @@
 .luxury-greeting {
     font-size: 14px;
     color: #333;
+    color: var(--text-color);
 }
 
 .luxury-auth-button {
@@ -61,4 +65,15 @@
 
 .luxury-auth-button:hover {
     background-color: #005ec4;
+}
+
+.luxury-theme-button {
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease;
 }
