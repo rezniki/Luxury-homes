@@ -23,6 +23,12 @@
 - **localStorage**
 - Чистая структура компонентов и страниц
 
+## 📸 Скриншоты
+
+![Luxury-homes-1](https://github.com/user-attachments/assets/bd9e09dd-a20c-40db-b9b3-45fc7fee1fff)
+![Luxury-homes-2](https://github.com/user-attachments/assets/1c9990e4-6617-4426-913f-a00e3f49d011)
+![Luxury-homes-3](https://github.com/user-attachments/assets/cdde47c0-6297-4c63-82ef-d2d5709a8f76)
+
 ## 🧱 Структура проекта
 
 ```bash
